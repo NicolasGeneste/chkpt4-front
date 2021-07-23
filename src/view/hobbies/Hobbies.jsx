@@ -9,6 +9,7 @@ const useStyles = createUseStyles({
         justifyContent: 'space-around',
         alignContent: 'space-between',
         backgroundColor: '#2A2A3F',
+        height: '946px',
     },
 });
 
