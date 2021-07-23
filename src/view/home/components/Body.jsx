@@ -16,7 +16,7 @@ function Body(props) {
     return (
         <div className={classes.container}>
             <div className={classes.card1}>
-                <Link to="details">
+                <Link to="details" style={{ textDecoration: 'none' }}>
                     <Card
                         title="MA VIE"
                         backgroundImage="url(assets/imageA.jpg)"
@@ -26,7 +26,7 @@ function Body(props) {
                 </Link>
             </div>
             <div className={classes.card2}>
-                <Link to="allProjects">
+                <Link to="allProjects" style={{ textDecoration: 'none' }}>
                     <Card
                         title="MES OEUVRES"
                         backgroundImage="url(assets/imageM.jpg)"
@@ -36,7 +36,7 @@ function Body(props) {
                 </Link>
             </div>
             <div className={classes.card3}>
-                <Link to="hobbies">
+                <Link to="hobbies" style={{ textDecoration: 'none' }}>
                     <Card
                         title="MES PLAISIRS"
                         backgroundImage="url(assets/imageS.jpg)"
